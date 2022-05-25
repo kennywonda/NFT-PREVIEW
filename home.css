@@ -1,0 +1,97 @@
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-BG:hsl(217, 54%, 11%);
+    --card-BG:hsl(216, 50%, 16%);
+    --line: hsl(216, 50%, 16%);
+}
+
+body{
+    background-color:var(--main-BG);
+    /* text-align: center; */
+}
+
+.flex-container {
+    display: flex;
+    align-self: center;
+    width: 180px;
+    height: 380px;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    padding-top: 10px;
+    background-color: var(--card-BG);
+    border-radius: 8px;
+    box-shadow: 10px 2px 5px rgb(5, 6, 4);
+    /* justify-content: flex-start; */
+    padding: 20px;
+}
+
+
+.span{
+    display: flex;
+    flex-direction: row;
+}
+
+#picture{
+    border-radius: 15px;
+
+}
+h4{
+    color:whitesmoke
+}
+p{
+    font-size:10px;
+    color: whitesmoke;
+    margin-bottom: 2px;
+
+}
+
+#img1{
+    width: 10px;
+    height: 10px;
+}
+
+
+/* new css */
+
+.etherum-section, .clock-section,.base-section,.avatar{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+.etherum-section p , .clock-section p{
+    padding-right: 5px;
+    
+}
+
+#eth-rate{
+    color: aqua;
+}
+
+
+.avatar{
+    justify-content: flex-start;
+    margin-top: -5px;
+  
+}
+
+#person{
+    margin-right: 10px;
+    width: 30px;
+    height:30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#topic{
+    font-size: 14px;
+    width: 160px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: rgb(66, 108, 122);
+}
+#topic2{
+    margin-top:20px ;
+}
